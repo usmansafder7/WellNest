@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import {AllRoutes} from "./routes/AllRoutes";
+import { HeaderHappy } from './components/Happy/HeaderHappy';
+import { HeaderSad } from './components/Sad/HeaderSad';
+import { FooterSad } from './components/Sad/FooterSad';
+import { FooterHappy } from './components/Happy/FooterHappy';
+import { useContext } from 'react';
+import { EmotionProvider, EmotionContext } from './context/EmotionContext';
 
 function App() {
+
+  const { emotion } = useContext(EmotionContext);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {emotion === 'happy' ? <HeaderHappy /> : <HeaderSad />}
+      <AllRoutes/>
+      {emotion === 'happy' ? <FooterHappy /> : <FooterSad />}
     </div>
   );
 }
