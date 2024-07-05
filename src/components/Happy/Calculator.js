@@ -101,8 +101,8 @@ export const Calculator = () => {
           </div>
 
           <div className="mt-4 w-full text-sm text-gray-600">
-            <p>{selectedContent.burnoutSource} <a href="#" className="text-blue-600">{selectedContent.source}</a></p>
-            <p>{selectedContent.salarySource} <a href="#" className="text-blue-600">{selectedContent.source}</a></p>
+            <p>{selectedContent.burnoutSource} <a href="https://github.com/ayeshag7" className="text-blue-600">{selectedContent.source}</a></p>
+            <p>{selectedContent.salarySource} <a href="https://github.com/ayeshag7" className="text-blue-600">{selectedContent.source}</a></p>
           </div>
         </div>
       </div>

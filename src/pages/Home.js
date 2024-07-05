@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { EmotionProvider, EmotionContext } from '../context/EmotionContext';
+import { EmotionContext } from '../context/EmotionContext';
 import { MainContenHappy } from "../components/Happy/MainContenHappy";
 import { MainContentSad } from "../components/Sad/MainContentSad";
 

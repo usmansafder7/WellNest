@@ -76,7 +76,7 @@ export const Contact = () => {
                 <span key={index}>{line}<br /></span>
               ))}
             </p>
-            <a href="javascript:void(0)">
+            <a href="https://github.com/ayeshag7">
               <p className="text-white pt-16 font-bold tracking-wide underline">{selectedContent.viewJobs}</p>
             </a>
           </div>
