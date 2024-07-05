@@ -47,10 +47,10 @@ export const Services = () => {
 
   return (
     <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
-      <p className="font-normal text-sm leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-2">{selectedContent.about}</p>
+      <p className="font-normal text-sm leading-3 text-gray-600 cursor-pointer pb-2">{selectedContent.about}</p>
       <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
         <div className="w-full lg:w-6/12">
-          <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">{selectedContent.title}</h2>
+          <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9 playfair-font">{selectedContent.title}</h2>
           <p className="font-normal text-base leading-6 text-gray-600 mt-6">{selectedContent.description}</p>
         </div>
         <div className="w-full lg:w-6/12">
@@ -91,15 +91,15 @@ export const Services = () => {
       </div>
       <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
         <div>
-          <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">{selectedContent.founded}</p>
+          <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6 playfair-font">{selectedContent.founded}</p>
           <p className="font-normal text-base leading-6 text-gray-600 mt-6">{selectedContent.foundedDesc}</p>
         </div>
         <div>
-          <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">{selectedContent.users}</p>
+          <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6 playfair-font">{selectedContent.users}</p>
           <p className="font-normal text-base leading-6 text-gray-600 mt-6">{selectedContent.usersDesc}</p>
         </div>
         <div className="sm:block hidden">
-          <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">{selectedContent.users}</p>
+          <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6 playfair-font">{selectedContent.users}</p>
           <p className="font-normal text-base leading-6 text-gray-600 mt-6">{selectedContent.usersDesc}</p>
         </div>
       </div>
@@ -124,7 +124,7 @@ export const Services = () => {
 
       <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
         <div className="w-full lg:w-6/12">
-          <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">{selectedContent.missionTitle}</h2>
+          <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 playfair-font">{selectedContent.missionTitle}</h2>
           <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">{selectedContent.missionDesc1}</p>
           <p className="font-normal text-base leading-6 text-gray-600 w-full lg:w-10/12 xl:w-9/12 mt-10">{selectedContent.missionDesc2}</p>
         </div>
@@ -140,7 +140,7 @@ export const Services = () => {
                 </svg>
               </div>
               <div className="">
-                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">{selectedContent.team}</p>
+                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 playfair-font">{selectedContent.team}</p>
                 <p className="mt-2 font-normal text-base leading-6 text-gray-600">{selectedContent.teamDesc}</p>
               </div>
             </div>
@@ -156,7 +156,7 @@ export const Services = () => {
                 </svg>
               </div>
               <div className="">
-                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">{selectedContent.board}</p>
+                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 playfair-font">{selectedContent.board}</p>
                 <p className="mt-2 font-normal text-base leading-6 text-gray-600">{selectedContent.boardDesc}</p>
               </div>
             </div>
@@ -170,7 +170,7 @@ export const Services = () => {
                 </svg>
               </div>
               <div className="">
-                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">{selectedContent.press}</p>
+                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 ">{selectedContent.press}</p>
                 <p className="mt-2 font-normal text-base leading-6 text-gray-600">{selectedContent.pressDesc}</p>
               </div>
             </div>
