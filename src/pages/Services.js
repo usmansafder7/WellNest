@@ -1,10 +1,8 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
-import { EmotionContext } from "../context/EmotionContext";
 
 export const Services = () => {
   const { language } = useContext(LanguageContext);
-  const { emotion } = useContext(EmotionContext);
 
   const content = {
     English: {
