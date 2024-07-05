@@ -13,7 +13,7 @@ export const Calculator = () => {
       costPerPersonLabel: "Cost per person",
       totalBurnoutCost: "Total burnout cost",
       burnoutSource: "Burnout cost is 34% of a disengaged employee’s annual salary",
-      salarySource: "Average annual salary is $70,000",
+      salarySource: "Average annual salary is Rs. Rs70,000",
       source: "(source)"
     },
     Urdu: {
