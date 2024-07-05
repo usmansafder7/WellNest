@@ -52,12 +52,14 @@ export const HeaderSad = () => {
   return (
     <nav className="bg-[#D3F4FB] border-gray-200 border">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <Link to="/">
+        <a href="https://github.com/ayeshag7" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} className="h-20" alt="WellNest Logo" />
           <span className={`self-center text-4xl font-semibold whitespace-nowrap playfair-font text-[#59D7EE]`}>
             {selectedContent.logo}
           </span>
         </a>
+        </Link>
 
         <div className="flex space-x-4">
           <button 
@@ -95,20 +97,22 @@ export const HeaderSad = () => {
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-600 rounded-lg bg-[#D3F4FB] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-[#D3F4FB]">
             <li>
               <Link to="/">
-              <a href="#" className="block py-2 px-3 text-gray-600 bg-white rounded md:bg-transparent text-xl md:text-gray-600 md:p-0 playfair-font" aria-current="page">{selectedContent.home}</a>
+              <a href="https://github.com/ayeshag7" className="block py-2 px-3 text-gray-600 bg-white rounded md:bg-transparent text-xl md:text-gray-600 md:p-0 playfair-font" aria-current="page">{selectedContent.home}</a>
               </Link>
             </li>
             <li>
               <Link to="/about">
-              <a href="#" className="block py-2 px-3 text-[#59D7EE] rounded hover:bg-white text-xl hover:text-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 playfair-font">{selectedContent.about}</a>
+              <a href="https://github.com/ayeshag7" className="block py-2 px-3 text-[#59D7EE] rounded hover:bg-white text-xl hover:text-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 playfair-font">{selectedContent.about}</a>
               </Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-[#59D7EE] rounded hover:bg-white text-xl hover:text-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 playfair-font">{selectedContent.services}</a>
+              <Link to="/services">
+              <a href="https://github.com/ayeshag7" className="block py-2 px-3 text-[#59D7EE] rounded hover:bg-white text-xl hover:text-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 playfair-font">{selectedContent.services}</a>
+              </Link>
             </li>
             <li>
               <Link to="/contact">
-              <a href="#" className="block py-2 px-3 text-[#59D7EE] rounded hover:bg-white text-xl hover:text-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 playfair-font">{selectedContent.contact}</a>
+              <a href="https://github.com/ayeshag7" className="block py-2 px-3 text-[#59D7EE] rounded hover:bg-white text-xl hover:text-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 playfair-font">{selectedContent.contact}</a>
               </Link>
             </li>
           </ul>

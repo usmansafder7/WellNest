@@ -5,7 +5,7 @@ import { HeaderSad } from './components/Sad/HeaderSad';
 import { FooterSad } from './components/Sad/FooterSad';
 import { FooterHappy } from './components/Happy/FooterHappy';
 import { useContext } from 'react';
-import { EmotionProvider, EmotionContext } from './context/EmotionContext';
+import { EmotionContext } from './context/EmotionContext';
 
 function App() {
 
